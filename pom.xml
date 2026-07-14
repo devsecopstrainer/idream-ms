@@ -34,4 +34,28 @@
             </plugin>
 		</plugins>
 	</build>
+    <reporting>
+        <plugins>
+            <!-- Generates project info reports (dependencies, plugins, team, etc.) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.4.5</version>
+            </plugin>
+            
+            <!-- Optional: Generates Javadoc API reports -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.6.3</version>
+            </plugin>
+
+            <!-- Optional: Generates unit test results site report -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
