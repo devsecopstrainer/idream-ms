@@ -1,3 +1,5 @@
 spring:
   application:
     name: idream-ms
+server:
+  port: 8081
