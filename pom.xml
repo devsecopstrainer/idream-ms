@@ -26,8 +26,8 @@
 	
 <distributionManagement>
 	<repository>
-		<id>cicd-repo</id>
-		<name>cicd-repo</name>
+		<id>idream-ms</id>
+		<name>idream-ms</name>
 		<url>http://3.110.77.21:8081/repository/idream-ms/</url>
 	</repository>
 </distributionManagement>
