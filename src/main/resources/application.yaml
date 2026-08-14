@@ -7,4 +7,4 @@ server:
 logging:
   level:
     com:
-      idream: INFO
+      idream: DEBUG
