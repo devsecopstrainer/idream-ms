@@ -3,3 +3,8 @@ spring:
     name: idream-ms
 server:
   port: 8081
+
+logging:
+  level:
+    com:
+      idream: INFO
