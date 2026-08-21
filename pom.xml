@@ -26,12 +26,11 @@
 	
 <distributionManagement>
 	<repository>
-		<id>idream-ms</id>
-		<name>idream-ms</name>
-		<url>http://3.110.77.21:8081/repository/idream-ms/</url>
+		<id>dev-repo-idream</id>
+		<name>dev-repo-idream</name>
+		<url>http://13.206.119.102:8081/repository/dev-repo-idream/</url>
 	</repository>
 </distributionManagement>
-
 	
 	<build>
 		<plugins>
