@@ -23,15 +23,13 @@
         </dependency>
 	</dependencies>
 
-	
 <distributionManagement>
 	<repository>
-		<id>dev-repo-idream</id>
-		<name>dev-repo-idream</name>
-		<url>http://13.206.119.102:8081/repository/dev-repo-idream/</url>
+		<id>cicd-repo</id>
+		<name>cicd-repo</name>
+		<url>http://15.252.164.111:8081/repository/cicd-repo/</url>
 	</repository>
 </distributionManagement>
-	
 	<build>
 		<plugins>
 			<plugin>
