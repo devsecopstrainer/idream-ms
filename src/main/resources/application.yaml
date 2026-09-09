@@ -8,3 +8,5 @@ logging:
   level:
     com:
       idream: DEBUG
+  file:
+    name: /app/logs/application.log
