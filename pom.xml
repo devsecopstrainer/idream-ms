@@ -27,7 +27,7 @@
 	<repository>
 		<id>cicd-repo</id>
 		<name>cicd-repo</name>
-		<url>http://15.252.164.111:8081/repository/cicd-repo/</url>
+		<url>http://15.206.211.27:8081/repository/cicd-repo/</url>
 	</repository>
 </distributionManagement>
 	<build>
