@@ -1,26 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dep-ex
+  name: idream-ms-dep
+  labels:
+    app: idream-ms
 spec:
-  replicas: 1
-  selector: 
+  replicas: 2
+  selector:
     matchLabels:
-      app: microservice-app
+      app: idream-ms
   template:
     metadata:
       labels:
-        app: microservice-app
+        app: idream-ms
     spec:
       containers:
-      - name: ms-container
-        image: devsecopstrainer/idream-ms:5
+      - name: idream-ms
+        image: devsecopstrainer/idream-ms:11
         ports:
-          - containerPort: 8081
-        resources:
-          requests:
-            cpu: "500m"
-            memory: "500Mi"
-          limits:
-            cpu: "510"
-            memory: "510Mi"
+        - containerPort: 8080
